@@ -29,7 +29,35 @@
     </nav>
 
     <main class="contenedor">
-      <h1>Producto</h1>
+      <h1>React</h1>
+
+      <div class="camisa">
+        <img
+          src="img/3.jpg"
+          alt="Imagen de la camisa React"
+          class="camisa__imagen"
+        />
+
+        <div class="camisa__contenido">
+          <p>
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Facere
+            atque ut, molestiae voluptate in modi? Modi non doloribus sequi,
+            dolorem quasi soluta cupiditate esse, laborum perspiciatis molestiae
+            dolore odit vel.
+          </p>
+
+          <form class="formulario">
+            <select class="formulario__campo">
+              <option disabled selected>Selecciona una talla</option>
+              <option value="pequeña">Pequeña</option>
+              <option value="mediana">Mediana</option>
+              <option value="grande">Grande</option>
+              <input class="formulario__campo" type="number" placeholder="Cantidad" min="1" />
+              <input class="formulario__submit" type="submit" value="Añadir al carrito" />
+            </select>
+          </form>
+        </div>
+      </div>
     </main>
 
     <footer class="footer">
